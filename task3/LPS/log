@@ -2353,19 +2353,19 @@ GPGPU-Sim: synchronize waiting for inactive GPU simulation
 GPGPU-Sim API: Stream Manager State
 GPGPU-Sim: detected inactive GPU simulation thread
 
-Copy u1 to device: 172.546005 (ms) 
+Copy u1 to device: 153.755997 (ms) 
 
  dimGrid  = 4 25 1 
  dimBlock = 32 4 1 
 GPGPU-Sim: synchronize waiting for inactive GPU simulation
 GPGPU-Sim API: Stream Manager State
 GPGPU-Sim: detected inactive GPU simulation thread
-GPGPU-Sim PTX: Setting up arguments for 4 bytes starting at 0x7fffc8f1cb9c..
-GPGPU-Sim PTX: Setting up arguments for 4 bytes starting at 0x7fffc8f1cb98..
-GPGPU-Sim PTX: Setting up arguments for 4 bytes starting at 0x7fffc8f1cb94..
-GPGPU-Sim PTX: Setting up arguments for 4 bytes starting at 0x7fffc8f1cb90..
-GPGPU-Sim PTX: Setting up arguments for 8 bytes starting at 0x7fffc8f1cb88..
-GPGPU-Sim PTX: Setting up arguments for 8 bytes starting at 0x7fffc8f1cb80..
+GPGPU-Sim PTX: Setting up arguments for 4 bytes starting at 0x7ffdcf232d2c..
+GPGPU-Sim PTX: Setting up arguments for 4 bytes starting at 0x7ffdcf232d28..
+GPGPU-Sim PTX: Setting up arguments for 4 bytes starting at 0x7ffdcf232d24..
+GPGPU-Sim PTX: Setting up arguments for 4 bytes starting at 0x7ffdcf232d20..
+GPGPU-Sim PTX: Setting up arguments for 8 bytes starting at 0x7ffdcf232d18..
+GPGPU-Sim PTX: Setting up arguments for 8 bytes starting at 0x7ffdcf232d10..
 
 GPGPU-Sim PTX: cudaLaunch for 0x0x4046d0 (mode=performance simulation) on stream 0
 GPGPU-Sim PTX: finding reconvergence points for '_Z13GPU_laplace3diiiiPfS_'...
@@ -2609,7 +2609,7 @@ partiton_level_parallism_util =       5.0105
 partiton_level_parallism_util_total  =       5.0105
 L2_BW  =     212.5915 GB/Sec
 L2_BW_total  =     212.5915 GB/Sec
-gpu_total_sim_rate=515868
+gpu_total_sim_rate=481761
 
 ========= Core cache stats =========
 L1I_cache:
@@ -3891,10 +3891,10 @@ Hops average = 1 (1 samples)
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 1 min, 53 sec (113 sec)
-gpgpu_simulation_rate = 515868 (inst/sec)
-gpgpu_simulation_rate = 846 (cycle/sec)
-gpgpu_silicon_slowdown = 1674940x
+gpgpu_simulation_time = 0 days, 0 hrs, 2 min, 1 sec (121 sec)
+gpgpu_simulation_rate = 481761 (inst/sec)
+gpgpu_simulation_rate = 790 (cycle/sec)
+gpgpu_silicon_slowdown = 1793670x
 
 ========================= Prints for Task 3 & 4 =========================
 
@@ -3904,17 +3904,17 @@ gpgpu_silicon_slowdown = 1674940x
 
 # of global memory access:  109200
 
-# of local memory access:  599688
+# of local memory access:  0
 
 GPGPU-Sim: synchronize waiting for inactive GPU simulation
 GPGPU-Sim API: Stream Manager State
 GPGPU-Sim: detected inactive GPU simulation thread
 
-1x GPU_laplace3d: 112504.929688 (ms) 
+1x GPU_laplace3d: 119810.562500 (ms) 
 
-Copy u2 to host: 113.085999 (ms) 
+Copy u2 to host: 152.498001 (ms) 
 
-1x Gold_laplace3d: 4.344000 (ms) 
+1x Gold_laplace3d: 5.529000 (ms) 
  
 
  rms error = 0.000000 
